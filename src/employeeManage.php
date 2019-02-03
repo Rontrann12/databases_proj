@@ -20,7 +20,7 @@
 
 <select name="ssn">
 <?php
-$con=mysqli_connect("localhost","root","gofyourselF2!#@", "grk");
+$con=mysqli_connect("localhost","root","root1234", "grk");
 // Check connection
 if (mysqli_connect_errno())
 {
@@ -39,7 +39,7 @@ while ($row = $sql->fetch_assoc()){
 </form>
 
 <?php
-$con=mysqli_connect("localhost","root","gofyourselF2!#@", "grk");
+$con=mysqli_connect("localhost","root","root1234", "grk");
 // Check connection
 if (mysqli_connect_errno())
 {
@@ -82,7 +82,7 @@ Type of Worker<select name="type">
 </html>
 
 <?php
-$con=mysqli_connect("localhost","root","gofyourselF2!#@", "grk");
+$con=mysqli_connect("localhost","root","root1234", "grk");
 // Check connection
 if (mysqli_connect_errno())
 {
@@ -123,7 +123,7 @@ Type of Worker<select name="type">
 </form>
 
 <?php
-$con=mysqli_connect("localhost", "root", "gofyourselF2!#@", "grk");
+$con=mysqli_connect("localhost", "root", "root1234", "grk");
 //Check connection
 if(mysqli_connect_errno())
 {
